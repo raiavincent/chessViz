@@ -9,6 +9,7 @@ import os
 import datetime
 from puzzleCredentials import table_id
 from puzzleCredentials import project_id
+import warnings
 
 filePath = r"C:\Users\vince\OneDrive\Chess\training - v2.xlsx"
 
@@ -18,7 +19,7 @@ puzzleHistory = xlsx_table(filePath, sheetname='table', table='puzzleScoring')
 
 print('Data located.')
 
-print(puzzleHistory)
+warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 pandas_gbq.to_gbq(
     puzzleHistory, table_id, project_id=project_id, if_exists='append',

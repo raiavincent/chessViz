@@ -1,2 +1,23 @@
 
 puzzleCredentials.py
+build/dataUpload/Analysis-00.toc
+build/dataUpload/base_library.zip
+build/dataUpload/dataUpload.exe.manifest
+build/dataUpload/dataUpload.pkg
+build/dataUpload/EXE-00.toc
+build/dataUpload/localpycs/pyimod01_archive.pyc
+build/dataUpload/localpycs/pyimod02_importers.pyc
+build/dataUpload/localpycs/pyimod03_ctypes.pyc
+build/dataUpload/localpycs/pyimod04_pywin32.pyc
+build/dataUpload/localpycs/struct.pyc
+build/dataUpload/PKG-00.toc
+build/dataUpload/PYZ-00.pyz
+build/dataUpload/PYZ-00.toc
+build/dataUpload/Tree-00.toc
+build/dataUpload/Tree-01.toc
+build/dataUpload/Tree-02.toc
+build/dataUpload/warn-dataUpload.txt
+build/dataUpload/xref-dataUpload.html
+*.exe
+warningDisable.py
+dataUpload.spec
