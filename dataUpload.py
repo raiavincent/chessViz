@@ -29,5 +29,6 @@ pandas_gbq.to_gbq(
     puzzleHistory, table_id, project_id=project_id, if_exists='replace',
     table_schema=table_schema)
 
+# just creating an output to show the code is complete
 print('Data uploaded.')
     
